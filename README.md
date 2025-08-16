@@ -1,5 +1,4 @@
 # Biomechanical-Gait-Analysis-Matlab
-# Biomechanical Gait Analysis in MATLAB
 
 This repository hosts scripts related to human biomechanical gait analysis.
 
