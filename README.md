@@ -15,9 +15,10 @@ This repository hosts scripts related to human biomechanical gait analysis.
 ### Normalizing a time-series signal from 0-100%
 `time_normalize.m`: This script provides a template for normalizing a time-series signal from 0-100% (e.g., from 0-100% of the support phase). The script includes calls to the built-in function `spline()` and `gait_events_grf()` to normalize a vertical ground reaction force signal for a single step during walking. The script also plots the original and normalized signals.  
 
-<img src="media/grf_original.jpg" width="60%">
+![grf_original](https://github.com/user-attachments/assets/bf1be208-c78c-42f3-a4a7-a9370e145215)
 
-<img src="media/grf_normed.jpg" width="60%">
+![grf_normed](https://github.com/user-attachments/assets/1c948f14-c85f-4e6f-9d4b-54a840696e8e)
+
 
 ---
 
@@ -28,7 +29,8 @@ This repository hosts scripts related to human biomechanical gait analysis.
 
 `impliment_example.m`: This script provides an example template for implimenting `gait_events_grf.m`. The script loads the example data file grf_gait_events_data.mat, uses the function to identify heel strikes and toe offs, and plots the GRF signal with event frames highlighted.
 
-<img src="media/grf_gait_events.jpg" width="60%">
+![grf_gait_events](https://github.com/user-attachments/assets/6ed3bea7-f0cc-4462-bcb6-1e83ec161d8d)
+
 
 ---
 
