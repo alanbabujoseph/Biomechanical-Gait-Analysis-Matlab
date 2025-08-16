@@ -9,7 +9,8 @@ This repository hosts scripts related to human biomechanical gait analysis.
 ### Applying Butterworth Filters
 `butterworth_filter.m`: This script provides a template for applying a 4th-order lowpass Butterworth filter with a cutoff frequency of 6 Hz. The script includes calls to `butter()` and `filtfilt()` to filter a vertical ground reaction force signal. The script also plots the original and filtered signals.  
 
-<img src="media/grf_butter_filter.jpg" width="60%">
+![grf_butter_filter](https://github.com/user-attachments/assets/423d7776-13b6-40b2-b1af-a48ddf4c8517)
+
 
 ### Normalizing a time-series signal from 0-100%
 `time_normalize.m`: This script provides a template for normalizing a time-series signal from 0-100% (e.g., from 0-100% of the support phase). The script includes calls to the built-in function `spline()` and `gait_events_grf()` to normalize a vertical ground reaction force signal for a single step during walking. The script also plots the original and normalized signals.  
